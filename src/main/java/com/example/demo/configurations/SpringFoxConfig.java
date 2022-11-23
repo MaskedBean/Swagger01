@@ -41,8 +41,8 @@ public class SpringFoxConfig {
                             "https://en.wikipedia.org/wiki/MIT_License",
                             Collections.emptyList()
                     )).tags(
-                            new Tag("Alessandro", "Name of the developer"),
-                            new Tag("welcome-controller", "provides a welcome message for who's visiting localhost:1234"));
+                            new Tag("Name-Controller", "Return the name of the developer"),
+                            new Tag("Default-Controller", "provides a welcome message for who's visiting localhost:1234"));
         }
 
     @Bean
